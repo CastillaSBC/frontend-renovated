@@ -1,6 +1,6 @@
 import { writable } from "svelte/store";
 
-const user = writable({
+export const user = writable({
     id: 0,
     username: "",
     verified: false,
