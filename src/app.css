@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: #181818;
+  color: #a0a0a0;
+  @apply font-serif;
+}
+
+a {
+  @apply hover:text-white;
+}

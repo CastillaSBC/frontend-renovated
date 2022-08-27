@@ -1,0 +1,1 @@
+<div class="text-center">CURRENTLY NON-FUNCTIONAL | CONTACT AN ADMINISTRATOR ON OUR <a href="https://discord.gg/JVpFdV8Knp" class="text-blue-600 underline" target="_blank">DISCORD</a></div>
