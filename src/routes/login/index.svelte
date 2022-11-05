@@ -17,6 +17,7 @@
     DialogTitle,
     DialogDescription,
   } from "@rgossiaux/svelte-headlessui";
+  import { goto } from "$app/navigation";
 
   // Handle Submit
   const handleSubmit = (/** @type {{ preventDefault: () => void; }} */ e) => {
@@ -40,6 +41,7 @@
         body = data.message;
         visible = true
         user.set(data.user);
+        goto('/profile/me')
       })
     }
   };
