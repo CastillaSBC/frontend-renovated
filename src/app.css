@@ -3,11 +3,54 @@
 @tailwind utilities;
 
 :root {
-  background-color: #181818;
-  color: #a0a0a0;
-  @apply font-serif;
+  background-color: #7D86BA;
+  color:white;
+  font: normal 13px helvetica,arial,sans-serif;
 }
 
+//color: #a0a0a0;
 a {
   @apply hover:text-white;
+}
+
+
+.navbar-section {
+  @apply flex items-center gap-2
+}
+
+.navbar > a {
+@apply bg-blue-900 rounded-t-xl p-2 hover:bg-blue-700 
+}
+
+\forums\forum\251-vigor\.navbar-brand { 
+  @apply mr-5 text-xl
+}
+
+.navbar {
+ 
+  @apply mx-6 flex items-center gap-2
+}
+
+.toastbar > div::after {
+  content: ">"
+}
+.toastbar > div[last]::after {
+  content: ""
+}
+
+
+.toastbar > div::after {
+  content: ">"
+}
+.toastbar > div[name="last"]::after {
+  content: ""
+}
+
+
+.bg-primary {
+  @apply bg-[#04151F]
+}
+
+.text-primary {
+  @apply text-[#EFD6AC]
 }
