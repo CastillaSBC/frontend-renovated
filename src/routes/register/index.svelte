@@ -19,7 +19,7 @@
     console.log("Logging...");
     e.preventDefault();
     if (username.length > 0 && password.length > 0) {
-      fetch(url + "/user/register", {
+      fetch(`${url}/user/register`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
